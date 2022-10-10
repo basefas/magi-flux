@@ -9,5 +9,5 @@ spec:
         - name: app-test-02
           resources:
             limits:
-              cpu: 500m
-              memory: 512Mi
+              cpu: 20m
+              memory: 64Mi
