@@ -1,0 +1,16 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
+kind: Kustomization
+metadata:
+  name: demo-01-dev-ns-01-app-test-02
+  namespace: flux-system
+spec:
+  interval: 1m0s
+  sourceRef:
+    kind: GitRepository
+    name: flux-system
+  path: ./apps/demo-01/dev-ns-01/app-test-02
+  prune: true
+  postBuild:
+    substituteFrom:
+    - kind: ConfigMap
+      name: vars-dev-01
