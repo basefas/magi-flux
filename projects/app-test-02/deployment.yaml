@@ -1,0 +1,11 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-test-02
+spec:
+  template:
+    spec:
+      containers:
+        - name: app-test-02
+          image: app-test-02
