@@ -12,4 +12,4 @@ patchesStrategicMerge:
 images:
     - name: app-test-02
       newName: docker.io/nginx
-      newTag: 1.22.1
+      newTag: 1.22.0
