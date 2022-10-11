@@ -11,5 +11,5 @@ patchesStrategicMerge:
 - patch.yaml
 images:
 - name: app-test-02
-  newName: docker.io/nginx:latest
+  newName: docker.io/nginx
   newTag: 0.0.0
