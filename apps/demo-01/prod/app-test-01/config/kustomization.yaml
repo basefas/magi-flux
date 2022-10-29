@@ -1,0 +1,4 @@
+configMapGenerator:
+- name: configmap-app-test-01
+  files:
+  - config.yaml
