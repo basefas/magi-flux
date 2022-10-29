@@ -4,5 +4,3 @@ metadata:
   name: vars-dev-01
   namespace: flux-system
 data:
-  key1: "v1"
-  key2: "v2"
