@@ -2,14 +2,14 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: dev-ns-02
 commonLabels:
-    magi-app: app-test-02
+  magi-app: app-test-02
 commonAnnotations:
-    magi-deploy-type: namespace
+  magi-deploy-type: namespace
 resources:
-    - ../../../../projects/app-test-02
+- ../../../../projects/app-test-02
 patchesStrategicMerge:
-    - patch.yaml
+- patch.yaml
 images:
-    - name: app-test-02
-      newName: docker.io/nginx
-      newTag: 1.22.0
+- name: app-test-02
+  newName: docker.io/nginx
+  newTag: 0.0.0
