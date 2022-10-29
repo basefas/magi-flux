@@ -7,8 +7,7 @@ commonAnnotations:
   magi-deploy-type: cluster
 resources:
 - ../../../../projects/app-test-01
-- config
 images:
 - name: app-test-01
-  newName: docker.io/nginx:latest
+  newName: docker.io/nginx
   newTag: 0.0.0
