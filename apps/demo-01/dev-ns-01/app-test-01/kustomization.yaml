@@ -9,5 +9,5 @@ resources:
 - ../../../../projects/app-test-01
 images:
 - name: app-test-01
-  newName: https://test.app.com/app.com
+  newName: docker.io/nginx
   newTag: 0.0.0
